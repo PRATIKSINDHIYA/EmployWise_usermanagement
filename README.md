@@ -4,6 +4,11 @@
 
 A modern, responsive React application for managing employee information with a beautiful UI that supports both light and dark modes.
 
+
+## 🌐 Live Demo
+
+**URL:** [https://employwise-ashy.vercel.app](https://employwise-ashy.vercel.app)
+
 ## 🌟 Features
 
 ### Authentication
