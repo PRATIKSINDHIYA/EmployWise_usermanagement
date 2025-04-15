@@ -150,18 +150,8 @@ Password: cityslicka
 
 ### Color Palette
 - **Light Mode**
-  - Primary: Indigo (#6366F1)
-  - Secondary: Pink (#EC4899)
-  - Accent: Purple (#8B5CF6)
-  - Background: White to light gray gradient
-  - Cards: Subtle shadow and hover effects
-
 - **Dark Mode**
-  - Primary: Purple (#7367F0)
-  - Background: Dark slate (#1A202C)
-  - Elevated surfaces: Slightly lighter than background
-  - Text: High contrast for readability
-
+  
 ### Layout
 - Sidebar navigation with main content area
 - Card-based UI for user management
@@ -179,9 +169,6 @@ Password: cityslicka
 - Export data functionality
 - Bulk operations
 - More detailed analytics dashboard
-
-## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
