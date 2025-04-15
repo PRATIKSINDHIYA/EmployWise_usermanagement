@@ -89,6 +89,10 @@ A modern, responsive React application for managing employee information with a 
   - Error handling
   - Loading state management
 
+### UI/UX
+
+-  Light/dark modes, responsive design, smooth transitions.
+
 ## 🛠️ Getting Started
 
 ### Prerequisites
