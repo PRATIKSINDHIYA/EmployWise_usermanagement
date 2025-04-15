@@ -47,18 +47,46 @@ const Login: React.FC = () => {
     setError('');
     setLoading(true);
 
+    // Validate required fields
+    if (!email || !password) {
+      setError('Email and password are required');
+      setLoading(false);
+      return;
+    }
+
+    // Email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setError('Please enter a valid email address');
+      setLoading(false);
+      return;
+    }
+
     try {
       await new Promise(resolve => setTimeout(resolve, 600));
       
-      const data = await login(email, password);
-      if (data && data.token) {
-        authLogin(data.token);
-        navigate('/users');
+      // Only allow login with correct credentials for demo
+      // The correct credentials are:
+      // email: eve.holt@reqres.in
+      // password: cityslicka
+      if (email === 'eve.holt@reqres.in' && password === 'cityslicka') {
+        const data = await login(email, password);
+        if (data && data.token) {
+          authLogin(data.token);
+          navigate('/users');
+        } else {
+          setError('Login failed. API did not return a token.');
+        }
       } else {
-        setError('Login failed. Please check your credentials.');
+        // Simulate a failed API call for incorrect credentials
+        setError('Invalid email or password. Please try again.');
       }
     } catch (err: any) {
-      setError(err.response?.data?.error || 'An error occurred during login.');
+      if (err.response && err.response.status === 400) {
+        setError('Invalid email or password. Please try again.');
+      } else {
+        setError(err.response?.data?.error || 'An error occurred during login. Please try again.');
+      }
     } finally {
       setLoading(false);
     }
