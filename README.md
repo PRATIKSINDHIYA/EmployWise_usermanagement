@@ -55,30 +55,6 @@ A modern, responsive React application for managing employee information with a 
   - Users management view
   - Settings view for theme configuration
 
-### UI/UX Enhancements
-- **Theme Support**
-  - Toggle between light and dark modes
-  - Theme-specific color schemes
-  - Persistent theme preference
-  - Smooth transitions between themes
-
-- **Responsive Design**
-  - Mobile-first approach
-  - Adapts to all screen sizes
-  - Optimized for both desktop and mobile
-  - Touch-friendly interface
-
-- **Visual Feedback**
-  - Loading indicators for async operations
-  - Success/error notifications
-  - Hover effects on interactive elements
-  - Animations for better user experience
-
-- **Enhanced UI Components**
-  - Custom styled Material-UI components
-  - Gradient backgrounds and shadows
-  - Animated icons and transitions
-  - Consistent design language
 
 ## 🚀 Technical Highlights
 
