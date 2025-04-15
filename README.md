@@ -55,6 +55,11 @@ A modern, responsive React application for managing employee information with a 
   - Users management view
   - Settings view for theme configuration
 
+### UI/UX
+
+-  Light/dark modes, responsive design, smooth transitions.
+
+
 
 ## 🚀 Technical Highlights
 
@@ -88,10 +93,6 @@ A modern, responsive React application for managing employee information with a 
   - Axios for HTTP requests
   - Error handling
   - Loading state management
-
-### UI/UX
-
--  Light/dark modes, responsive design, smooth transitions.
 
 ## 🛠️ Getting Started
 
