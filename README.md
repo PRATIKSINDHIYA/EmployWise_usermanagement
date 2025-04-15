@@ -85,7 +85,7 @@ A modern, responsive React application for managing employee information with a 
 ### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/employwise-app.git
+git clone https://github.com/PRATIKSINDHIYA/EmployWise_usermanagement.git
 cd employwise-app
 ```
 
