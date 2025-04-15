@@ -74,17 +74,7 @@ A modern, responsive React application for managing employee information with a 
   - Optimized rendering
 
 ### Performance Optimization
-- **Efficient Rendering**
-  - Component memoization
-  - Conditional rendering
-  - Optimized list rendering
-  - Transition animations
-
-- **API Integration**
-  - RESTful API consumption
-  - Axios for HTTP requests
-  - Error handling
-  - Loading state management
+- Optimized rendering, Axios for API calls.
 
 ## 🛠️ Getting Started
 
