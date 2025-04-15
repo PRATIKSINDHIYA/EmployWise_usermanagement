@@ -44,16 +44,8 @@ A modern, responsive React application for managing employee information with a 
   - Loading indicators for all operations
 
 ### Navigation
-- **Responsive Sidebar**
-  - Desktop permanent sidebar
-  - Mobile collapsible drawer
-  - Elegant sidebar header with avatar
-  - Active item highlighting
+-  Responsive sidebar, multiple views (Dashboard, Users, Settings).
 
-- **Multiple Views**
-  - Dashboard view with system overview
-  - Users management view
-  - Settings view for theme configuration
 
 ### UI/UX
 
